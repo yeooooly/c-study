@@ -16,8 +16,8 @@ int main(void)
     struct profile yuni;
 
     strcpy(yuni.name, "ronaldo");
-    yuni.age = 17;
-    yuni.height = 164.5;
+    yuni.age = 41;
+    yuni.height = 187;
 
     yuni.intro = (char*)malloc(80);
     printf("introduce : ");
