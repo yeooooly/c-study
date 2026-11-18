@@ -10,6 +10,7 @@ C언어 학습 정리
 - [04. 자료형 크기](./C언어/04_자료형_크기.md) : Windows PC / Linux PC / STM32F411 자료형 크기 비교
 - [05. 구구단 (이중 for문)](./C언어/05_구구단_이중for문.md) : 이중 for 문으로 1단 ~ 9단 출력
 - [06. 함수](./C언어/06_함수.md) : 함수 선언 / 정의 / 호출, return 값
+- [07. 구조체](./C언어/07_구조체.md) : struct 정의 / 멤버 접근, malloc / free, strcpy, gets_s
 
 ## 프로젝트 구조
 
@@ -22,9 +23,11 @@ c-study/
     ├── 04_자료형_크기.md         PC vs STM32 자료형 크기 문서
     ├── 05_구구단_이중for문.md    이중 for 문 문서
     ├── 06_함수.md                함수 문서
+    ├── 07_구조체.md              구조체 + malloc 문서
     └── examples/
         ├── escape.c              이스케이프 시퀀스 예제
         ├── arithmetic.c          산술 연산 + 형변환 예제
         ├── gugudan.c             구구단 예제
-        └── function.c            함수 예제
+        ├── function.c            함수 예제
+        └── struct_profile.c      구조체 예제
 ```
